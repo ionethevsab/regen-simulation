@@ -4,13 +4,28 @@ In-house use; will be open source as it matures
 ## Network Value Regeneration Simulation Dashboard
 An interactive Python desktop application designed to model and simulate **exponential network growth** combined with dynamic individual member productivity curves. It allows you to analyze and visualize both immediate round performance and cumulative network value while accounting for member tenure and active churn.
 
+## The Exponential Network Output Lab 🔬
+The primary objective of this simulation environment is to study a powerful mathematical contrast: **how a network's total value behaves when its member count grows exponentially, but individual performance grows linearly or hits a plateau.**
+
+Because the network size doubles every round ( M(t) = n • 2^t ), the total group value ($Y$) scales **exponentially over time**, completely overpowering individual limitations. 
+
 ## Core Mathematical Concept
 
-The dashboard evaluates network production across two distinct individual behaviors:
-1. **Linear Growth**: Members increase their value by a flat amount each round ($y = v_0 + k \cdot t$).
-2. **Diminishing Returns**: Members approach a hard capacity or market exhaustion ceiling ($y = v_{max} \cdot (1 - e^{-k \cdot t})$).
+The simulation runs a composite model where a macro exponential population interacts with micro-level individual growth:
 
-Because members join at different rounds (cohorts), the application uses a phased matrix calculation to apply the correct productivity score to each cohort based on their exact tenure, adjusting for active member **churn rates**.
+1. **Network Population: EXPONENTIAL GROWTH**
+   * Formula: M(t) = n • 2^t
+   * Why: Because every active member recruits exactly 1 new person every round, causing the total headcount to double each step.
+
+
+2. **Single Member Output (Individual Value) = LINEAR OR DIMINISHING GROWTH**
+   * Lab Value y produced at time t, with m members: y(t) = v • m • (2^t)
+   * Linear Regeneration: y = v0 +  k  • t(A) (An individual's personal skill adds a flat, constant amount each round).
+   * Diminishing Mode: $y = v_{max} \cdot (1 - e^{-k \cdot t})$ (An individual's capacity slows down as they approach a hard ceiling).
+
+3. **Cummulative Total Network Value (Y). HYPER-EXPONENTIAL COMPOUNDING**
+   * Formula: (Y(t) = v • m ((2^t+1)-1)
+   * Why: By multiplying an exponentially growing population by a steadily improving workforce, the total group output explodes even faster than standard exponential duplication.
 
 ---
 
