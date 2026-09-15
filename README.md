@@ -82,6 +82,6 @@ The dashboard live-renders four distinct quadrants to monitor your model:
 * **Snapshot Output at Round $t$**: Displays the total value generated *strictly inside* that round.
 * **Grand Cumulative Output $Y$**: Tracks the compounding financial or structural grand total since day zero.
 
-***Formula snapshot***
-<img width="526" height="324" alt="Screenshot 2026-09-15 at 11 21 18 PM" src="https://github.com/user-attachments/assets/8ea6b63f-94c3-4276-ad11-c955b8c95acd" />
+### Formula snapshot
+<img width="844" height="555" alt="Screenshot 2026-09-16 at 12 25 57 AM" src="https://github.com/user-attachments/assets/6bf65b9e-fbf5-42ce-818e-c97854ecdb73" />
 
