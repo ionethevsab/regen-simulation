@@ -1,6 +1,7 @@
 # Ion Lab Regenerative Value Model Simulation Mini-Desktop App
+In-house use; will be open source as it matures
 
-# Network Growth & Productivity Simulation Dashboard
+## Network Value Regeneration Simulation Dashboard
 An interactive Python desktop application designed to model and simulate **exponential network growth** combined with dynamic individual member productivity curves. It allows you to analyze and visualize both immediate round performance and cumulative network value while accounting for member tenure and active churn.
 
 ## Core Mathematical Concept
